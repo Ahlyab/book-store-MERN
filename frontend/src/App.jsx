@@ -6,7 +6,6 @@ import EditBook from "./pages/EditBook";
 import ShowBook from "./pages/ShowBook";
 
 const App = () => {
-  document.title = "Book Store";
   return (
     <Routes>
       <Route path="/" element={<Home />} />
